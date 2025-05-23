@@ -37,7 +37,7 @@ function App() {
           <Card className='mt-4 max-w-200 relative'>
             <CardHeader className='flex justify-between'>
               <CardTitle className='text-lg'>Credentials</CardTitle>
-              <ClipboardCopy onClick={copyToClipboard} className='absolute right-4 top-4' />
+              <ClipboardCopy onClick={copyToClipboard} className='absolute right-4 top-4 cursor-pointer hover:scale-120' />
             </CardHeader>
             <CardContent ref={contentRef} className='break-words'>
               {credentials &&
